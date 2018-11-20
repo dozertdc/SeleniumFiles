@@ -20,7 +20,8 @@ public class ChromeDriverDemo {
         element.sendKeys("Cheese");
 
         element.submit();
-
+        
+        driver.quit();
 
 
     }
